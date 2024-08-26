@@ -16,6 +16,23 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/your-username/react-tailwind-supabase-dashboard.git
    cd react-tailwind-supabase-dashboard
-2. Install dependencies:
-  ```bash 
-  npm install
+
+2. **Install dependencies:**
+
+    ```bash 
+   npm install
+
+4. **Set up environment variables:**
+Create a .env file in the root directory and add your Supabase credentials:
+   ```bash
+   REACT_APP_SUPABASE_URL=your-supabase-url
+   REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
+
+5. **Run the development server:**
+   ```bash
+   npm start
+
+The app will be available at http://localhost:3000.
+
+## Usage
+This template is designed to be a starting point for custom dashboard projects. You can easily extend the functionality by adding more components, routes, and features as needed.
